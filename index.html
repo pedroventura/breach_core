@@ -1,189 +1,79 @@
----
-layout: default
-title: "Breach - A browser for the HTML5 era"
----
+<!DOCTYPE html>
+<html>
 
-<section id="hero">
-  <article>
-    <div class="animated fadeIn">
-      <h1>A browser for the <strong>HTML5</strong> era</h1>
-      <h2>Entirely written in Javascript. Free. Modular. Hackable.</h2>
-      <a href="" id="download" class="btn-main"></a>
+  <head>
+    <meta charset='utf-8' />
+    <meta http-equiv="X-UA-Compatible" content="chrome=1" />
+    <meta name="description" content="Breach core : A Browser written in JS. Free. Modular. Hackable." />
+
+    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+
+    <title>Breach core</title>
+  </head>
+
+  <body>
+
+    <!-- HEADER -->
+    <div id="header_wrap" class="outer">
+        <header class="inner">
+          <a id="forkme_banner" href="https://github.com/elpeter/breach_core">View on GitHub</a>
+
+          <h1 id="project_title">Breach core</h1>
+          <h2 id="project_tagline">A Browser written in JS. Free. Modular. Hackable.</h2>
+
+            <section id="downloads">
+              <a class="zip_download_link" href="https://github.com/elpeter/breach_core/zipball/master">Download this project as a .zip file</a>
+              <a class="tar_download_link" href="https://github.com/elpeter/breach_core/tarball/master">Download this project as a tar.gz file</a>
+            </section>
+        </header>
     </div>
 
-    <figure class="animated fadeInUp">
-      <img src="{{ site.base_url }}/assets/images/browser.png" alt="much browser">
-    </figure>
-  </article>
-</section>
+    <!-- MAIN CONTENT -->
+    <div id="main_content_wrap" class="outer">
+      <section id="main_content" class="inner">
+        <h3>
+<a name="welcome-to-github-pages" class="anchor" href="#welcome-to-github-pages"><span class="octicon octicon-link"></span></a>Welcome to GitHub Pages.</h3>
 
-<section id="features">
-  <article class="col-4-12 wow fadeInDown" data-wow-delay=".3s">
-    <img src="{{ site.base_url }}/assets/images/feature-modular.png" alt="such modular">
-    <div>
-      <h5>Modular</h5>
-      <p>Everything in the browser is a module, a web-app running in its own process.<br>Construct your own browsing experience by selecting the right modules for you.</p>
+<p>This automatic page generator is the easiest way to create beautiful pages for all of your projects. Author your page content here using GitHub Flavored Markdown, select a template crafted by a designer, and publish. After your page is generated, you can check out the new branch:</p>
+
+<pre><code>$ cd your_repo_root/repo_name
+$ git fetch origin
+$ git checkout gh-pages
+</code></pre>
+
+<p>If you're using the GitHub for Mac, simply sync your repository and you'll see the new branch.</p>
+
+<h3>
+<a name="designer-templates" class="anchor" href="#designer-templates"><span class="octicon octicon-link"></span></a>Designer Templates</h3>
+
+<p>We've crafted some handsome templates for you to use. Go ahead and continue to layouts to browse through them. You can easily go back to edit your page before publishing. After publishing your page, you can revisit the page generator and switch to another theme. Your Page content will be preserved if it remained markdown format.</p>
+
+<h3>
+<a name="rather-drive-stick" class="anchor" href="#rather-drive-stick"><span class="octicon octicon-link"></span></a>Rather Drive Stick?</h3>
+
+<p>If you prefer to not use the automatic generator, push a branch named <code>gh-pages</code> to your repository to create a page manually. In addition to supporting regular HTML content, GitHub Pages support Jekyll, a simple, blog aware static site generator written by our own Tom Preston-Werner. Jekyll makes it easy to create site-wide headers and footers without having to copy them across every page. It also offers intelligent blog support and other advanced templating features.</p>
+
+<h3>
+<a name="authors-and-contributors" class="anchor" href="#authors-and-contributors"><span class="octicon octicon-link"></span></a>Authors and Contributors</h3>
+
+<p>You can <a href="https://github.com/blog/821" class="user-mention">@mention</a> a GitHub username to generate a link to their profile. The resulting <code>&lt;a&gt;</code> element will link to the contributor's GitHub Profile. For example: In 2007, Chris Wanstrath (<a href="https://github.com/defunkt" class="user-mention">@defunkt</a>), PJ Hyett (<a href="https://github.com/pjhyett" class="user-mention">@pjhyett</a>), and Tom Preston-Werner (<a href="https://github.com/mojombo" class="user-mention">@mojombo</a>) founded GitHub.</p>
+
+<h3>
+<a name="support-or-contact" class="anchor" href="#support-or-contact"><span class="octicon octicon-link"></span></a>Support or Contact</h3>
+
+<p>Having trouble with Pages? Check out the documentation at <a href="http://help.github.com/pages">http://help.github.com/pages</a> or contact <a href="mailto:support@github.com">support@github.com</a> and we’ll help you sort it out.</p>
+      </section>
     </div>
-  </article>
-  <article class="col-4-12 wow fadeInDown" data-wow-delay=".6s">
-    <img src="{{ site.base_url }}/assets/images/feature-hackable.png" alt="very hackable">
-    <div>
-      <h5>Hackable</h5>
-      <p>Want vertical tabs? Write some JS &amp; CSS! Customised autocomplete engine? JS!<br>Every behavior is programmatic and exposed through APIs.</p>
+
+    <!-- FOOTER  -->
+    <div id="footer_wrap" class="outer">
+      <footer class="inner">
+        <p class="copyright">Breach core maintained by <a href="https://github.com/elpeter">elpeter</a></p>
+        <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
+      </footer>
     </div>
-  </article>
-  <article class="col-4-12 wow fadeInDown" data-wow-delay=".9s">
-    <img src="{{ site.base_url }}/assets/images/feature-opensource.png" alt="so open source">
-    <div>
-      <h5>Open Source</h5>
-      <p>The entire technological stack is opensource.<br>Modify existing modules and create your owns to extend the behavior of Breach.</p>
-    </div>
-  </article>
-</section>
 
-<section id="tech">
-  <header class="wow fadeIn" data-wow-delay=".3s">
-    <h3>How it's built</h3>
-    <h4>A few simple ingredients to make magic happen.</h4>
-  </header>
+    
 
-  <div class="layers">
-    <img src="{{ site.base_url }}/assets/images/tech.png" alt="wow">
-  </div>
-
-  <div class="flex explanation">
-    <article class="html wow fadeInDown" data-wow-offset="200">
-      <img src="{{ site.base_url }}/assets/images/layer-01.png" alt="">
-      <div class="col-4-12">
-        <h5>HTML / JS / CSS</h5>
-        <p>The entire UI is built out of interchangeable modules coded in pure Javascript / HTML5.<br>Each module is a web-app with access to the Breach API.</p>
-      </div>
-    </article>
-    <article class="chromium wow fadeInDown" data-wow-offset="400">
-      <img src="{{ site.base_url }}/assets/images/layer-02.png" alt="wow">
-      <div class="col-3-12">
-        <h5>Chromium</h5>
-        <p>The Chromium Content API is exposed to Node JS through v8 native bindings and multiplexed to modules.<br>Security and performance is at the heart of the design, tabs and modules run in separate processes.</p>
-      </div>
-    </article>
-    <article class="node wow fadeInDown" data-wow-offset="700">
-      <img src="{{ site.base_url }}/assets/images/layer-03.png" alt="wow">
-      <div class="col-4-12">
-        <h5>Node.js</h5>
-        <p>Breach embeds a NodeJS event loop in charge of running the core browser javascript implementation.<br>Each module is run in its own NodeJS process and interacts with the core browser through IPC.</p>
-      </div>
-    </article>
-  </div>
-</section>
-
-<section id="sessions" style="display: none;">
-  <header class="wow fadeInDown" data-wow-delay=".3s">
-    <h3>Multi-Sessions. Any device. Your way.<span>*</span></h3>
-    <h4>Breach comes bundled with a distributed storage system that let's you decide where you data is physically located.</h4>
-  </header>
-  <img src="{{ site.base_url }}/assets/images/illus-multisessions.png" class="multisessions wow bounceIn" data-wow-delay=".3s" alt="">
-  <article>
-    <h4 class="wow fadeInDown" data-wow-delay=".3s">When activated, the entire state of the browser is bundled in sessions.</h4>
-    <div>
-      <figure class="col-3-12 wow fadeInDown" data-wow-delay=".3s">
-        <img src="{{ site.base_url }}/assets/images/illus-switch.png" alt="very switch">
-        <figcaption>You can switch between sessions</figcaption>
-      </figure>
-      <figure class="col-3-12 wow fadeInDown" data-wow-delay=".6s">
-        <img src="{{ site.base_url }}/assets/images/illus-device.png" alt="much device">
-        <figcaption>Run your sessions on any device running Breach.</figcaption>
-      </figure>
-      <figure class="col-3-12 wow fadeInDown" data-wow-delay=".9s">
-        <img src="{{ site.base_url }}/assets/images/illus-sessions.png" alt="so session">
-        <figcaption>Toggle between multiple sessions.</figcaption>
-      </figure>
-      <figure class="col-3-12 wow fadeInDown" data-wow-delay="1.2s">
-        <img src="{{ site.base_url }}/assets/images/illus-control.png" alt="such control">
-        <figcaption>Be in control.</figcaption>
-      </figure>
-    </div>
-  </article>
-  <h5 class="notice">*This feature is not yet available, but will be, very soon :)</h5>
-</section>
-
-<section id="contribute">
-  <header class="">
-    <h3>Contribute!</h3>
-    <h4>Build your own modules or modify existing ones.</h4>
-  </header>
-  <div class="">
-    <a href="/hack" class="btn-main">
-      Learn & Hack
-    </a>
-  </div>
-</section>
-
-<section id="footer">
-  <footer>
-    <header>
-      <form>
-        <label><input id="email" type="email" placeholder="Subscribe via email"></label>
-        <input type="submit" value="Join forces">
-      </form>
-      <nav class="">
-        <ul>
-          <li class="text"><a href="/blog">Blog</a></li>
-          <li class="text"><a href="/hack">Hack</a></li>
-          <li class="social"><a href="http://twitter.com/breachbrowser" class="fa-twitter"></a></li>
-          <li class="social"><a href="http://github.com/breach/breach_core" class="fa-github"></a></li>
-        </ul>
-      </nav>
-    </header>
-    <hr class="">
-    <small class=""><strong>&lt;breach&gt;</strong> made by enthusiastic <a href="/contributors">developers &amp; designers</a> from around the world <strong>&lt;/breach&gt;</strong></small>
-  </footer>
-</section>
-
-<script type="text/javascript" src="js/wow.min.js"></script>
-<script type="text/javascript" src="js/index.js"></script>
-
-<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-<script>
-  $(function() {
-    $('#footer form').submit(function(e) {
-      e.preventDefault();
-
-      var email = $('#footer #email').val().toLowerCase();
-      var email_r = /^[a-z0-9\.\_\-\+\%]+@[a-z0-9\.\-]+\.[a-z]{2,}$/;
-      if(email_r.exec(email)) {
-        var HOST = 'data.breach.cc';
-        var url = 'http://' + HOST + ':4000/auth/join?email=' + 
-        encodeURIComponent(email) + '&callback=?';
-        $.getJSON(url, function(data) {
-          console.log(data);
-          $('#footer #email').attr('placeholder', 'Thanks!');
-          $('#footer #email').val('');
-          setTimeout(function() {
-            $('#footer #email').blur();
-          });
-        });
-      }
-    });
-
-    var platform = "unknown";
-    if(navigator.appVersion.indexOf("Win")!=-1) platform="win";
-    if(navigator.appVersion.indexOf("Mac")!=-1) platform="darwin";
-    if(navigator.appVersion.indexOf("X11")!=-1) platform="linux";
-    if(navigator.appVersion.indexOf("Linux")!=-1) platform="linux";
-
-    if(platform === 'darwin') {
-      $('#download').html('<span class="fa fa-apple"></span>&nbsp;&nbsp; Download Breach Alpha v0.3');
-      $('#download').attr('href', 'http://bit.ly/TVn9EB');
-    }
-    else if(platform === 'linux') {
-      $('#download').html('<span class="fa fa-linux"></span>&nbsp;&nbsp; Download Breach Alpha v0.3');
-      $('#download').attr('href', 'http://bit.ly/1trVzzh');
-    }
-    else {
-      $('#download').html('Available on &nbsp;&nbsp;<span class="fa fa-apple"></span> / <span class="fa fa-linux"></span>');
-      $('#download').attr('href', '#');
-    }
-
-  });
-</script>
-
+  </body>
+</html>
